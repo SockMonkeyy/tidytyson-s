@@ -2652,14 +2652,14 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-  border-color: #fab19d;
+  border-color: #ff0000;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.5);
 }
 
 .form-check-input:checked {
   background-color: #FFD8E1;
-  border-color: #FFD8E1;
+  border-color: #ff0000;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -2763,7 +2763,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #f4623a;
+  background-color: #ff0000;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2780,7 +2780,7 @@ textarea.form-control-lg {
 }
 
 .form-range::-webkit-slider-thumb:active {
-  background-color: #fcd0c4;
+  background-color: #ff0000;
 }
 
 .form-range::-webkit-slider-runnable-track {
@@ -2796,7 +2796,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #f4623a;
+  background-color: #ff0000;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -12300,7 +12300,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #fff;
+  background-color: #ff0000;
   opacity: 1;
 }
 
