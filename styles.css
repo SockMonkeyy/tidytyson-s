@@ -11667,7 +11667,7 @@ section.pricing {
 
 .contact{
   background-image: url(./logo.png),
-  linear-gradient(90deg, #000, #f08, #000, #f08);
+  linear-gradient(90deg, #000, #f08, #000, #f08, #000);
   background-position: center left;
   background-size: contain;
 background-repeat: no-repeat;
@@ -11675,7 +11675,7 @@ background-repeat: no-repeat;
 
 .footer{
   background-image: url(./logo.png),
-  linear-gradient(90deg, #000, #f08, #000, #f08);
+  linear-gradient(90deg, #000, #f08, #000, #f08,#000);
   background-position: bottom;
   background-size: cover;
 background-repeat: no-repeat;
