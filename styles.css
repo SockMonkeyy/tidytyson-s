@@ -11634,6 +11634,7 @@ section.pricing {
    padding: 0;
   margin: 0;
   display: flex;
+  
 }
 
 .social-menu ul li{
@@ -11641,30 +11642,23 @@ section.pricing {
   margin: 0 15px;
 }
 
-.social-menu ul li .fab{
-  font-size: 30px;
-  line-height: 60px;
-  transition: .3s;
-  color: #f08;
-}
 
-.social-menu ul li .fab:hover{
-  color: #fff;
-}
 
-.social-menu ul li a{
-  position: relative;
-  display: block;
-  width: 60px;
-  height: 60px;
+.wp-icon {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: #fff;
   text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #f08;
+  margin-right: 5px;
   transition: .6s;
+  cursor: pointer;
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 
-.social-menu ul li a:hover{
+.wp-icon:hover{
   transform: translate(0, -10%);
   background-color: #f08;
   color: white;
