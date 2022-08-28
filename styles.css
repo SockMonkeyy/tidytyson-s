@@ -12313,7 +12313,7 @@ hr.divider-pink {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #FFD8E1;
+  background-color: #ffd8e196;
   transition: background-color 0.2s ease;
   padding-left: 1.5rem;
   margin: 0;
@@ -12700,7 +12700,7 @@ Edit in JSFiddle Result HTML CSS JavaScript Resources section.pricing {
   background: url('./logo.png') repeat fixed 100%;
   background-size: cover;
   background-position: center;
-  max-width: fit-content;
+  max-width: 100vw;
 }
 
 .parallax1{
