@@ -3053,10 +3053,12 @@ textarea.form-control-lg {
   color: #fff;
   background-color: rgb(252, 62, 163);
   border-color: rgb(252, 62, 163);
+  
 }
 
 .myBtn{
   background-color: rgb(255, 44, 157);
+  color: black;
   
 }
 
