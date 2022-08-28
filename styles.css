@@ -11538,12 +11538,12 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #services{
-background-image: url(./fullsize/White\ Purple\ Cleaning\ Services\ Instagram\ Post.jpg);
-background-repeat: none;
+background-image: url(./fullsize/White\ Purple\ Cleaning\ Services\ Instagram\ Post.jpg),
+linear-gradient(#000,#F08,#000);
+background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-background-blend-mode: darken;
-background-color: rgba(12, 12, 12, 0.3);
+
 }
 
 .myShadow{
@@ -11668,15 +11668,21 @@ section.pricing {
 .contact{
   background-image: url(./logo.png),
   linear-gradient(90deg, #000, #f08, #000, #f08, #000);
-  background-position: center left;
+  background-position: top left;
   background-size: contain;
 background-repeat: no-repeat;
 }
 
 .footer{
-  background-image: url(./logo.png),
+  background-image: url(),
   linear-gradient(90deg, #000, #f08, #000, #f08,#000);
   background-position: bottom;
   background-size: cover;
 background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact{
+  background-position: top;
+  }
 }
