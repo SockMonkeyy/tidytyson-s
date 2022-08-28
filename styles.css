@@ -11629,6 +11629,7 @@ section.pricing {
   }
 }
 
+/* Social Media Icons */
 
 .social-menu ul{
    padding: 0;
@@ -11641,7 +11642,6 @@ section.pricing {
   list-style: none;
   margin: 0 15px;
 }
-
 
 
 .wp-icon {
@@ -11662,4 +11662,21 @@ section.pricing {
   transform: translate(0, -10%);
   background-color: #f08;
   color: white;
+}
+/* End of Social Media Icons*/
+
+.contact{
+  background-image: url(./logo.png),
+  linear-gradient(90deg, #000, #f08, #000, #f08);
+  background-position: center left;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+
+.footer{
+  background-image: url(./logo.png),
+  linear-gradient(90deg, #000, #f08, #000, #f08);
+  background-position: bottom;
+  background-size: cover;
+background-repeat: no-repeat;
 }
