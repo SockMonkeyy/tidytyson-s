@@ -315,6 +315,11 @@ samp {
   unicode-bidi: bidi-override;
 }
 
+.bi-phone{
+  color:#f0d5cd;
+  font-size: 3rem;
+}
+
 pre {
   display: block;
   margin-top: 0;
