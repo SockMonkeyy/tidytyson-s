@@ -80,11 +80,14 @@
 }
 
 .booking{
-color: #f0d5cd;
+color: #ff0000;
+
+
 }
 
 .booking:hover{
-  color: #ff0000;
+  color: #ffc8d5;
+  
 }
 
 body {
