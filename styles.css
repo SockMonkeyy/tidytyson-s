@@ -79,6 +79,14 @@
   }
 }
 
+.booking{
+color: #f0d5cd;
+}
+
+.booking:hover{
+  color: #ff0000;
+}
+
 body {
   margin: 0;
   font-family: 'Source Serif Pro', serif;
