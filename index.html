@@ -23,6 +23,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="flipBox.css">
 
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body id="page-top">
@@ -53,7 +56,7 @@
         style=" background:linear-gradient(135deg,rgb(185, 2, 45) 15%,  rgb(255, 216, 225) 55%, rgba(185, 2, 45) 80%), rgb(255, 216, 225) 95%;">
         <div class="px-lg-4 h-100">
             <div class="row  gx-lg-5 h-100 align-items-center justify-content-center text-center parallax1">
-                <div class="col-lg-8 align-self-end parallax-inner">
+                <div data-aos="fade-in" data-aos-delay="200" data-aos-easing="ease-in" class="col-lg-8 align-self-end parallax-inner">
 
                     <h1 class="font-weight-bold text-white mt-5"
                         style="font-family: 'Source Serif Pro', serif; padding:.5rem; border-radius:5px;">
@@ -62,7 +65,7 @@
                     </h1>
                     <hr class="divider" />
                 </div>
-                <div class="col-lg-8 align-self-baseline">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in" class="col-lg-8 align-self-baseline">
                     <p style="color: #ffffff; font-size: 1.5rem;  padding: 1rem; border-radius: 5px;"
                         class="mb-5">If you feel overwhelmed by all the cleaning you have to do at home or
                         you are concerned about how your business will look to customers because it isn’t clean enough,
@@ -78,7 +81,7 @@
     </header>
     <!-- About-->
     <section class="page-section h-" id="about">
-        <div class="container px-4 px-lg-5">
+        <div class="container px-4 px-lg-5" data-aos="fade" data-aos-easing="ease-in" data-aos-delay="200">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-12 col-sm-8 text-center">
                     <h2 class=" mt-0">Get More Time for <br> <span class=""
@@ -95,7 +98,7 @@
     </section>
     <!-- Services-->
     <section class="page-section parallax2 " id="services">
-        <div class="container px-4 px-lg-5 myShadow  parallax-inner">
+        <div class="container px-4 px-lg-5 myShadow  parallax-inner" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="200">
             <h2 class="text-center mt-3 ">At Your Service</h2>
             <hr class="divider" />
             <h5 class="text-center mb-3" style="color: #ff0000;">"YOU DROP IT, WE'LL MOP IT"</h5>
@@ -138,13 +141,13 @@
 
     <!-- Portfolio-->
     <div class="container-fluid flipHead" id="portfolio">
-        <h2 class="text-center w-100 d-flex justify-content-center text-white p-5" style="margin: 0 auto;">Enjoy a truly
+        <h2 data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="100" class="text-center w-100 d-flex justify-content-center text-white p-5" style="margin: 0 auto;">Enjoy a truly
             clean home with our house cleaning packages, ranging from touch-up cleaning to deep cleaning, <br> we have
             the house cleaning package that fits your need!</h2>
         <div class="box-container">
             <div class="box-item">
 
-                <div class="flip-box">
+                <div class="flip-box" data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100">
                     <div class="flip-box-front text-center"
                         style="background-image: url('./portfolio/before/IMG_0140.jpg');">
                         <div class="inner color-white">
@@ -153,7 +156,7 @@
                             <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
                         </div>
                     </div>
-                    <div class="flip-box-back text-center"
+                    <div class="flip-box-back text-center" 
                         style="background-image: url('./portfolio/after/IMG_0146.jpg');">
                         <div class="inner color-white">
                             <h3 class="flip-box-header">After</h3>
@@ -166,7 +169,7 @@
             </div>
 
             <div class="box-item">
-                <div class="flip-box">
+                <div class="flip-box" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="100">
                     <div class="flip-box-front text-center"
                         style="background-image: url('./portfolio/before/IMG_0149.jpg');">
                         <div class="inner color-white">
@@ -187,7 +190,7 @@
                 </div>
             </div>
             <div class="box-item">
-                <div class="flip-box">
+                <div class="flip-box" data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100">
                     <div class="flip-box-front text-center filter-"
                         style="background-image: url('./portfolio/before/IMG_0141.jpg');">
                         <div class="inner color-white">
@@ -295,8 +298,8 @@
 -->
 
     <!-- Contact-->
-    <section class="page-section parallax contact" id="contact">
-        <div class="container px-4 px-lg-5 ">
+    <section class="page-section parallax contact" id="contact" >
+        <div class="container px-4 px-lg-5 " data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="50">
             <div class="row gx-4 gx-lg-5   justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center ">
                     <p class="mt-5"
@@ -383,7 +386,11 @@
         </div>
     </footer>
 
-
+<!-- AOS Animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->
